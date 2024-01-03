@@ -1,3 +1,4 @@
+import card from '../../assets/icons_components/card.svg'
 const Navigation = () => {
   return (
     <div className='bg-slate-950 h-screen lg:w-60 p-3 rounded fixed overflow-y-scroll md:w-24'>
@@ -32,8 +33,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage:
-                      "url('/src/assets/accordions.svg')",
+                    backgroundImage: "url('/src/assets/accordions.svg')",
                     backgroundSize: 'cover'
                   }}
                 />
@@ -48,8 +48,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage:
-                      "url('/src/assets/badge.svg')",
+                    backgroundImage: "url('/src/assets/badge.svg')",
                     backgroundSize: 'cover'
                   }}
                 />
@@ -63,8 +62,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage:
-                      "url('/src/assets/buttons.svg')",
+                    backgroundImage: "url('/src/assets/buttons.svg')",
                     backgroundSize: 'cover'
                   }}
                 />
@@ -78,8 +76,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage:
-                      "url('/src/assets/card.svg')",
+                    backgroundImage: `url("${card}")`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -93,8 +90,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage:
-                      "url('/src/assets/carrousel.svg')",
+                    backgroundImage: "url('/src/assets/carrousel.svg')",
                     backgroundSize: 'cover'
                   }}
                 />
@@ -108,8 +104,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage:
-                      "url('/src/assets/fonts.svg')",
+                    backgroundImage: "url('/src/assets/fonts.svg')",
                     backgroundSize: 'cover'
                   }}
                 />
@@ -123,8 +118,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage:
-                      "url('/src/assets/footers.svg')",
+                    backgroundImage: "url('/src/assets/footers.svg')",
                     backgroundSize: 'cover'
                   }}
                 />
@@ -138,8 +132,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage:
-                      "url('/src/assets/images.svg')",
+                    backgroundImage: "url('/src/assets/images.svg')",
                     backgroundSize: 'cover'
                   }}
                 />
@@ -153,8 +146,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage:
-                      "url('/src/assets/lists.svg')",
+                    backgroundImage: "url('/src/assets/lists.svg')",
                     backgroundSize: 'cover'
                   }}
                 />
@@ -168,8 +160,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage:
-                      "url('/src/assets/modals.svg')",
+                    backgroundImage: "url('/src/assets/modals.svg')",
                     backgroundSize: 'cover'
                   }}
                 />
@@ -183,8 +174,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage:
-                      "url('/src/assets/navbar.svg')",
+                    backgroundImage: "url('/src/assets/navbar.svg')",
                     backgroundSize: 'cover'
                   }}
                 />
@@ -199,8 +189,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage:
-                      "url('/src/assets/pages.svg')",
+                    backgroundImage: "url('/src/assets/pages.svg')",
                     backgroundSize: 'cover'
                   }}
                 />
@@ -214,8 +203,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage:
-                      "url('/src/assets/progressbar.svg')",
+                    backgroundImage: "url('/src/assets/progressbar.svg')",
                     backgroundSize: 'cover'
                   }}
                 />
@@ -229,8 +217,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage:
-                      "url('/src/assets/spinners.svg')",
+                    backgroundImage: "url('/src/assets/spinners.svg')",
                     backgroundSize: 'cover'
                   }}
                 />
