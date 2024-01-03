@@ -1,5 +1,24 @@
 import icons from '../../assets/icons'
 const Navigation = () => {
+  const icon = {
+    card: icons.card,
+    icon: icons.icon,
+    accordions: icons.accordions,
+    badge: icons.badge,
+    buttons: icons.buttons,
+    carrousel: icons.carrousel,
+    fonts: icons.fonts,
+    footers: icons.footers,
+    images: icons.images,
+    lists: icons.lists,
+    modals: icons.modals,
+    navbar: icons.navbar,
+    pages: icons.pages,
+    progressBar: icons.progressBar,
+    spinners: icons.spinners
+  }
+
+  /* ------------------------- */
   return (
     <div className='bg-slate-950 h-screen lg:w-60 p-3 rounded fixed overflow-y-scroll md:w-24'>
       <div className='flex text-center lg:hidden pt-2 '>
@@ -17,7 +36,7 @@ const Navigation = () => {
             slot='image'
             className='w-full h-28 hidden lg:block hover:animate-pulse'
             style={{
-              backgroundImage: `url(${icons.icon})`,
+              backgroundImage: `url(${icon.icon})`,
               backgroundSize: 'cover'
             }}
           />
@@ -33,7 +52,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${icons.accordions})`,
+                    backgroundImage: `url(${icon.accordions})`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -48,7 +67,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${icons.badge})`,
+                    backgroundImage: `url(${icon.badge})`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -62,7 +81,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${icons.buttons})`,
+                    backgroundImage: `url(${icon.buttons})`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -76,7 +95,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${icons.card})`,
+                    backgroundImage: `url(${icon.card})`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -90,7 +109,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${icons.carrousel})`,
+                    backgroundImage: `url(${icon.carrousel})`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -104,7 +123,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${icons.fonts})`,
+                    backgroundImage: `url(${icon.fonts})`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -118,7 +137,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${icons.footers})`,
+                    backgroundImage: `url(${icon.footers})`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -132,11 +151,11 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${icons.icons})`,
+                    backgroundImage: `url(${icon.icon})`,
                     backgroundSize: 'cover'
                   }}
                 />
-                <span className='hidden lg:block'>icons</span>
+                <span className='hidden lg:block'>icon</span>
               </li>
             </a>
             <a href='#'>
@@ -146,7 +165,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${icons.lists})`,
+                    backgroundImage: `url(${icon.lists})`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -160,7 +179,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${icons.modals})`,
+                    backgroundImage: `url(${icon.modals})`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -174,7 +193,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${icons.navbar})`,
+                    backgroundImage: `url(${icon.navbar})`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -189,7 +208,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${icons.pages})`,
+                    backgroundImage: `url(${icon.pages})`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -203,7 +222,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${icons.progressBar})`,
+                    backgroundImage: `url(${icon.progressBar})`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -217,7 +236,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${icons.spinners})`,
+                    backgroundImage: `url(${icon.spinners})`,
                     backgroundSize: 'cover'
                   }}
                 />
