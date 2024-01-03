@@ -13,7 +13,6 @@ import navbar from '../../assets/icons_components/navbar.svg'
 import pages from '../../assets/icons_components/pages.svg'
 import progressBar from '../../assets/icons_components/progressBar.svg'
 import spinners from '../../assets/icons_components/spinners.svg'
-
 const Navigation = () => {
   return (
     <div className='bg-slate-950 h-screen lg:w-60 p-3 rounded fixed overflow-y-scroll md:w-24'>
@@ -32,7 +31,7 @@ const Navigation = () => {
             slot='image'
             className='w-full h-28 hidden lg:block hover:animate-pulse'
             style={{
-              backgroundImage: `url(${icon})`,
+              backgroundImage: `url("${icon}")`,
               backgroundSize: 'cover'
             }}
           />
@@ -48,7 +47,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${accordions})`,
+                    backgroundImage: `url("${accordions}")`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -63,7 +62,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${badge})`,
+                    backgroundImage: `url("${badge}")`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -77,7 +76,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${buttons})`,
+                    backgroundImage: `url("${buttons}")`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -91,7 +90,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${card})`,
+                    backgroundImage: `url("${card}")`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -105,7 +104,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${carrousel})`,
+                    backgroundImage: `url("${carrousel}")`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -119,7 +118,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${fonts})`,
+                    backgroundImage: `url("${fonts}")`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -133,7 +132,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${footers})`,
+                    backgroundImage: `url("${footers}")`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -147,7 +146,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${images})`,
+                    backgroundImage: `url("${images}")`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -161,7 +160,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${lists})`,
+                    backgroundImage: `url("${lists}")`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -175,7 +174,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${modals})`,
+                    backgroundImage: `url("${modals}")`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -189,7 +188,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${navbar})`,
+                    backgroundImage: `url("${navbar}")`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -204,7 +203,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${pages})`,
+                    backgroundImage: `url("${pages}")`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -218,7 +217,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${progressBar})`,
+                    backgroundImage: `url("${progressBar}")`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -232,7 +231,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url(${spinners})`,
+                    backgroundImage: `url("${spinners}")`,
                     backgroundSize: 'cover'
                   }}
                 />
