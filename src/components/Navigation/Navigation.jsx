@@ -33,7 +33,7 @@ const Navigation = () => {
                   className='w-8 h-8 mr-3'
                   style={{
                     backgroundImage:
-                      "url('/src/assets/icons_components/accordions.svg')",
+                      "url('/src/assets/accordions.svg')",
                     backgroundSize: 'cover'
                   }}
                 />
@@ -49,7 +49,7 @@ const Navigation = () => {
                   className='w-8 h-8 mr-3'
                   style={{
                     backgroundImage:
-                      "url('/src/assets/icons_components/badge.svg')",
+                      "url('/src/assets/badge.svg')",
                     backgroundSize: 'cover'
                   }}
                 />
@@ -64,7 +64,7 @@ const Navigation = () => {
                   className='w-8 h-8 mr-3'
                   style={{
                     backgroundImage:
-                      "url('/src/assets/icons_components/buttons.svg')",
+                      "url('/src/assets/buttons.svg')",
                     backgroundSize: 'cover'
                   }}
                 />
@@ -79,7 +79,7 @@ const Navigation = () => {
                   className='w-8 h-8 mr-3'
                   style={{
                     backgroundImage:
-                      "url('/src/assets/icons_components/card.svg')",
+                      "url('/src/assets/card.svg')",
                     backgroundSize: 'cover'
                   }}
                 />
@@ -94,7 +94,7 @@ const Navigation = () => {
                   className='w-8 h-8 mr-3'
                   style={{
                     backgroundImage:
-                      "url('/src/assets/icons_components/carrousel.svg')",
+                      "url('/src/assets/carrousel.svg')",
                     backgroundSize: 'cover'
                   }}
                 />
@@ -109,7 +109,7 @@ const Navigation = () => {
                   className='w-8 h-8 mr-3'
                   style={{
                     backgroundImage:
-                      "url('/src/assets/icons_components/fonts.svg')",
+                      "url('/src/assets/fonts.svg')",
                     backgroundSize: 'cover'
                   }}
                 />
@@ -124,7 +124,7 @@ const Navigation = () => {
                   className='w-8 h-8 mr-3'
                   style={{
                     backgroundImage:
-                      "url('/src/assets/icons_components/footers.svg')",
+                      "url('/src/assets/footers.svg')",
                     backgroundSize: 'cover'
                   }}
                 />
@@ -139,7 +139,7 @@ const Navigation = () => {
                   className='w-8 h-8 mr-3'
                   style={{
                     backgroundImage:
-                      "url('/src/assets/icons_components/images.svg')",
+                      "url('/src/assets/images.svg')",
                     backgroundSize: 'cover'
                   }}
                 />
@@ -154,7 +154,7 @@ const Navigation = () => {
                   className='w-8 h-8 mr-3'
                   style={{
                     backgroundImage:
-                      "url('/src/assets/icons_components/lists.svg')",
+                      "url('/src/assets/lists.svg')",
                     backgroundSize: 'cover'
                   }}
                 />
@@ -169,7 +169,7 @@ const Navigation = () => {
                   className='w-8 h-8 mr-3'
                   style={{
                     backgroundImage:
-                      "url('/src/assets/icons_components/modals.svg')",
+                      "url('/src/assets/modals.svg')",
                     backgroundSize: 'cover'
                   }}
                 />
@@ -184,7 +184,7 @@ const Navigation = () => {
                   className='w-8 h-8 mr-3'
                   style={{
                     backgroundImage:
-                      "url('/src/assets/icons_components/navbar.svg')",
+                      "url('/src/assets/navbar.svg')",
                     backgroundSize: 'cover'
                   }}
                 />
@@ -200,7 +200,7 @@ const Navigation = () => {
                   className='w-8 h-8 mr-3'
                   style={{
                     backgroundImage:
-                      "url('/src/assets/icons_components/pages.svg')",
+                      "url('/src/assets/pages.svg')",
                     backgroundSize: 'cover'
                   }}
                 />
@@ -215,7 +215,7 @@ const Navigation = () => {
                   className='w-8 h-8 mr-3'
                   style={{
                     backgroundImage:
-                      "url('/src/assets/icons_components/progressbar.svg')",
+                      "url('/src/assets/progressbar.svg')",
                     backgroundSize: 'cover'
                   }}
                 />
@@ -230,7 +230,7 @@ const Navigation = () => {
                   className='w-8 h-8 mr-3'
                   style={{
                     backgroundImage:
-                      "url('/src/assets/icons_components/spinners.svg')",
+                      "url('/src/assets/spinners.svg')",
                     backgroundSize: 'cover'
                   }}
                 />
