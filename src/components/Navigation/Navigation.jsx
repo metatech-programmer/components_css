@@ -1,4 +1,18 @@
 import card from '../../assets/icons_components/card.svg'
+import icon from '../../assets/icon.svg'
+import accordions from '../../assets/icons_components/accordions.svg'
+import badge from '../../assets/icons_components/badge.svg'
+import buttons from '../../assets/icons_components/buttons.svg'
+import carrousel from '../../assets/icons_components/carrousel.svg'
+import fonts from '../../assets/icons_components/fonts.svg'
+import footers from '../../assets/icons_components/footers.svg'
+import images from '../../assets/icons_components/images.svg'
+import lists from '../../assets/icons_components/lists.svg'
+import modals from '../../assets/icons_components/modals.svg'
+import navbar from '../../assets/icons_components/navbar.svg'
+import pages from '../../assets/icons_components/pages.svg'
+import progressBar from '../../assets/icons_components/progressBar.svg'
+import spinners from '../../assets/icons_components/spinners.svg'
 const Navigation = () => {
   return (
     <div className='bg-slate-950 h-screen lg:w-60 p-3 rounded fixed overflow-y-scroll md:w-24'>
@@ -17,7 +31,7 @@ const Navigation = () => {
             slot='image'
             className='w-full h-28 hidden lg:block hover:animate-pulse'
             style={{
-              backgroundImage: "url('/src/assets/icon.svg')",
+               backgroundImage: `url("${icon}")`,
               backgroundSize: 'cover'
             }}
           />
@@ -33,7 +47,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: "url('/src/assets/accordions.svg')",
+                     backgroundImage: `url("${accordions}")`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -48,7 +62,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: "url('/src/assets/badge.svg')",
+                     backgroundImage: `url("${badge}")`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -62,7 +76,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: "url('/src/assets/buttons.svg')",
+                     backgroundImage: `url("${buttons}")`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -76,7 +90,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: `url("${card}")`,
+                     backgroundImage: `url("${card}")`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -90,7 +104,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: "url('/src/assets/carrousel.svg')",
+                     backgroundImage: `url("${carrousel}")`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -104,7 +118,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: "url('/src/assets/fonts.svg')",
+                     backgroundImage: `url("${fonts}")`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -118,7 +132,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: "url('/src/assets/footers.svg')",
+                     backgroundImage: `url("${footers}")`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -132,7 +146,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: "url('/src/assets/images.svg')",
+                     backgroundImage: `url("${images}")`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -146,7 +160,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: "url('/src/assets/lists.svg')",
+                     backgroundImage: `url("${lists}")`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -160,7 +174,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: "url('/src/assets/modals.svg')",
+                     backgroundImage: `url("${modals}")`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -174,7 +188,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: "url('/src/assets/navbar.svg')",
+                     backgroundImage: `url("${navbar}")`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -189,7 +203,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: "url('/src/assets/pages.svg')",
+                     backgroundImage: `url("${pages}")`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -203,7 +217,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: "url('/src/assets/progressbar.svg')",
+                     backgroundImage: `url("${progressBar}")`,
                     backgroundSize: 'cover'
                   }}
                 />
@@ -217,7 +231,7 @@ const Navigation = () => {
                   slot='image'
                   className='w-8 h-8 mr-3'
                   style={{
-                    backgroundImage: "url('/src/assets/spinners.svg')",
+                     backgroundImage: `url("${spinners}")`,
                     backgroundSize: 'cover'
                   }}
                 />
