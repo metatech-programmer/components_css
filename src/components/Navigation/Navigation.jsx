@@ -14,6 +14,12 @@ import pages from '../../assets/icons_components/pages.svg'
 import progressBar from '../../assets/icons_components/progressBar.svg'
 import spinners from '../../assets/icons_components/spinners.svg'
 const Navigation = () => {
+  const linkStyle = {
+    li: 'bg-slate-800 p-2 rounded-xl hover:font-semibold active:ring-4 ring-blue-300 hover:bg-slate-900 transition-colors duration-300 pl-5 flex items-center h-11'
+  }
+
+  /* ------------------------------------------- */
+
   return (
     <div className='bg-slate-950 h-screen lg:w-60 p-3 rounded fixed overflow-y-scroll md:w-24'>
       <div className='flex text-center lg:hidden pt-2 '>
@@ -42,7 +48,7 @@ const Navigation = () => {
           <ul className='flex flex-col gap-2 text-white items-center pb-6  lg:items-stretch'>
             <a href='#'>
               {' '}
-              <li className='bg-slate-800 p-2 rounded-xl hover:font-semibold active:ring-4 ring-blue-300 hover:bg-slate-900 transition-colors duration-300 pl-5 flex items-center h-11'>
+              <li className={linkStyle.li}>
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
@@ -57,7 +63,7 @@ const Navigation = () => {
             </a>
             <a href='#'>
               {' '}
-              <li className='bg-slate-800 p-2 rounded-xl hover:font-semibold active:ring-4 ring-blue-300 hover:bg-slate-900 transition-colors duration-300 pl-5 flex items-center h-11'>
+              <li className={linkStyle.li}>
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
@@ -71,7 +77,7 @@ const Navigation = () => {
             </a>
             <a href='#'>
               {' '}
-              <li className='bg-slate-800 p-2 rounded-xl hover:font-semibold active:ring-4 ring-blue-300 hover:bg-slate-900 transition-colors duration-300 pl-5 flex items-center h-11'>
+              <li className={linkStyle.li}>
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
@@ -85,7 +91,7 @@ const Navigation = () => {
             </a>
             <a href='#'>
               {' '}
-              <li className='bg-slate-800 p-2 rounded-xl hover:font-semibold active:ring-4 ring-blue-300 hover:bg-slate-900 transition-colors duration-300 pl-5 flex items-center h-11'>
+              <li className={linkStyle.li}>
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
@@ -99,7 +105,7 @@ const Navigation = () => {
             </a>
             <a href='#'>
               {' '}
-              <li className='bg-slate-800 p-2 rounded-xl hover:font-semibold active:ring-4 ring-blue-300 hover:bg-slate-900 transition-colors duration-300 pl-5 flex items-center h-11'>
+              <li className={linkStyle.li}>
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
@@ -113,7 +119,7 @@ const Navigation = () => {
             </a>
             <a href='#'>
               {' '}
-              <li className='bg-slate-800 p-2 rounded-xl hover:font-semibold active:ring-4 ring-blue-300 hover:bg-slate-900 transition-colors duration-300 pl-5 flex items-center h-11'>
+              <li className={linkStyle.li}>
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
@@ -127,7 +133,7 @@ const Navigation = () => {
             </a>
             <a href='#'>
               {' '}
-              <li className='bg-slate-800 p-2 rounded-xl hover:font-semibold active:ring-4 ring-blue-300 hover:bg-slate-900 transition-colors duration-300 pl-5 flex items-center h-11'>
+              <li className={linkStyle.li}>
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
@@ -141,7 +147,7 @@ const Navigation = () => {
             </a>
             <a href='#'>
               {' '}
-              <li className='bg-slate-800 p-2 rounded-xl hover:font-semibold active:ring-4 ring-blue-300 hover:bg-slate-900 transition-colors duration-300 pl-5 flex items-center h-11'>
+              <li className={linkStyle.li}>
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
@@ -155,7 +161,7 @@ const Navigation = () => {
             </a>
             <a href='#'>
               {' '}
-              <li className='bg-slate-800 p-2 rounded-xl hover:font-semibold active:ring-4 ring-blue-300 hover:bg-slate-900 transition-colors duration-300 pl-5 flex items-center h-11'>
+              <li className={linkStyle.li}>
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
@@ -169,7 +175,7 @@ const Navigation = () => {
             </a>
             <a href='#'>
               {' '}
-              <li className='bg-slate-800 p-2 rounded-xl hover:font-semibold active:ring-4 ring-blue-300 hover:bg-slate-900 transition-colors duration-300 pl-5 flex items-center h-11'>
+              <li className={linkStyle.li}>
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
@@ -183,7 +189,7 @@ const Navigation = () => {
             </a>
             <a href='#'>
               {' '}
-              <li className='bg-slate-800 p-2 rounded-xl hover:font-semibold active:ring-4 ring-blue-300 hover:bg-slate-900 transition-colors duration-300 pl-5 flex items-center h-11'>
+              <li className={linkStyle.li}>
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
@@ -198,7 +204,7 @@ const Navigation = () => {
 
             <a href='#'>
               {' '}
-              <li className='bg-slate-800 p-2 rounded-xl hover:font-semibold active:ring-4 ring-blue-300 hover:bg-slate-900 transition-colors duration-300 pl-5 flex items-center h-11'>
+              <li className={linkStyle.li}>
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
@@ -212,7 +218,7 @@ const Navigation = () => {
             </a>
             <a href='#'>
               {' '}
-              <li className='bg-slate-800 p-2 rounded-xl hover:font-semibold active:ring-4 ring-blue-300 hover:bg-slate-900 transition-colors duration-300 pl-5 flex items-center h-11'>
+              <li className={linkStyle.li}>
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
@@ -226,7 +232,7 @@ const Navigation = () => {
             </a>
             <a href='#'>
               {' '}
-              <li className='bg-slate-800 p-2 rounded-xl hover:font-semibold active:ring-4 ring-blue-300 hover:bg-slate-900 transition-colors duration-300 pl-5 flex items-center h-11'>
+              <li className={linkStyle.li}>
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
