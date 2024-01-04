@@ -21,7 +21,7 @@ const Navigation = () => {
   /* ------------------------------------------- */
 
   return (
-    <div className='bg-slate-950 h-screen lg:w-60 p-3 rounded fixed overflow-y-scroll md:w-24'>
+    <div className='bg-slate-950 h-screen lg:w-60 p-3 rounded fixed overflow-y-scroll md:w-24 border-r border-slate-600 shadow-md shadow-gray-600'>
       <div className='flex text-center lg:hidden pt-2 '>
         <span
           className='text-2xl font-semibold text-amber-200 pb-5 m-auto underline-offset-8  '
