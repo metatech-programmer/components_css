@@ -13,40 +13,46 @@ import navbar from '../../assets/icons_components/navbar.svg'
 import pages from '../../assets/icons_components/pages.svg'
 import progressBar from '../../assets/icons_components/progressBar.svg'
 import spinners from '../../assets/icons_components/spinners.svg'
+import { Link } from 'wouter'
+
 const Navigation = () => {
   const linkStyle = {
-    li: 'bg-slate-800 p-2 rounded-xl hover:font-semibold active:ring-4 ring-blue-300 hover:bg-slate-900 transition-colors duration-300 pl-5 flex items-center h-11'
+    li: 'bg-slate-800 p-2 rounded-xl hover:font-semibold active:ring-4 ring-blue-300 hover:bg-slate-900 transition-colors duration-300 pl-5 flex items-center h-11 hover:ml-2'
   }
 
   /* ------------------------------------------- */
 
   return (
-    <div className='bg-slate-950 h-screen lg:w-60 p-3 rounded fixed overflow-y-scroll md:w-24 border-r border-slate-600 shadow-md shadow-gray-600'>
+    <div className='bg-slate-950 h-screen lg:w-60 p-3 rounded fixed overflow-y-scroll md:w-24 border-r border-slate-600 shadow-md shadow-gray-600 z-10'>
       <div className='flex text-center lg:hidden pt-2 '>
-        <span
-          className='text-2xl font-semibold text-amber-200 pb-5 m-auto underline-offset-8  '
-          style={{ textShadow: '1px 1px 7px #4CB9E7' }}
-        >
-          M&apos;C
-        </span>
+        <Link to='/'>
+          <span
+            className='text-2xl font-semibold text-amber-200 pb-5 m-auto underline-offset-8  '
+            style={{ textShadow: '1px 1px 7px /link4CB9E7' }}
+          >
+            M&apos;C
+          </span>
+        </Link>
         <hr className='mb-3  border-slate-800' />
       </div>
       <aside className='text-center h-full '>
-        <div className='mb-5 underline font-bold text-[#4CB9E7] border-2 rounded-xl border-gray-400 p-3 lg:block hidden hover:animate-pulse'>
-          <div
-            slot='image'
-            className='w-full h-28 hidden lg:block hover:animate-pulse'
-            style={{
-              backgroundImage: `url("${icon}")`,
-              backgroundSize: 'cover'
-            }}
-          />
-          <span>Metatech Components</span>
-        </div>
+        <Link to='/'>
+          <div className='mb-5 underline font-bold text-[/link4CB9E7] border-2 rounded-xl border-gray-400 p-3 lg:block hidden hover:animate-pulse'>
+            <div
+              slot='image'
+              className='w-full h-28 hidden lg:block hover:animate-pulse'
+              style={{
+                backgroundImage: `url("${icon}")`,
+                backgroundSize: 'cover'
+              }}
+            />
+            <span>Metatech Components</span>
+          </div>
+        </Link>
         <hr className='mb-3  border-slate-800' />
         <nav className='text-justify text-pretty h-full m-2'>
           <ul className='flex flex-col gap-2 text-white items-center pb-6  lg:items-stretch'>
-            <a href='#'>
+            <Link to='/Accordions'>
               {' '}
               <li className={linkStyle.li}>
                 <div
@@ -60,8 +66,8 @@ const Navigation = () => {
 
                 <span className='hidden lg:block'>Accordions</span>
               </li>
-            </a>
-            <a href='#'>
+            </Link>
+            <Link to='/Badges'>
               {' '}
               <li className={linkStyle.li}>
                 <div
@@ -74,8 +80,8 @@ const Navigation = () => {
                 />
                 <span className='hidden lg:block'>Badges</span>
               </li>
-            </a>
-            <a href='#'>
+            </Link>
+            <Link to='/Buttons'>
               {' '}
               <li className={linkStyle.li}>
                 <div
@@ -88,8 +94,8 @@ const Navigation = () => {
                 />
                 <span className='hidden lg:block'>Buttons</span>
               </li>
-            </a>
-            <a href='#'>
+            </Link>
+            <Link to='/Cards'>
               {' '}
               <li className={linkStyle.li}>
                 <div
@@ -102,8 +108,8 @@ const Navigation = () => {
                 />
                 <span className='hidden lg:block'>Cards</span>
               </li>
-            </a>
-            <a href='#'>
+            </Link>
+            <Link to='/Carrousels'>
               {' '}
               <li className={linkStyle.li}>
                 <div
@@ -116,8 +122,8 @@ const Navigation = () => {
                 />
                 <span className='hidden lg:block'>Carrousel</span>
               </li>
-            </a>
-            <a href='#'>
+            </Link>
+            <Link to='/Typography'>
               {' '}
               <li className={linkStyle.li}>
                 <div
@@ -130,8 +136,8 @@ const Navigation = () => {
                 />
                 <span className='hidden lg:block'>Fonts</span>
               </li>
-            </a>
-            <a href='#'>
+            </Link>
+            <Link to='/Footers'>
               {' '}
               <li className={linkStyle.li}>
                 <div
@@ -144,8 +150,8 @@ const Navigation = () => {
                 />
                 <span className='hidden lg:block'>Footers</span>
               </li>
-            </a>
-            <a href='#'>
+            </Link>
+            <Link to='/Images'>
               {' '}
               <li className={linkStyle.li}>
                 <div
@@ -158,8 +164,8 @@ const Navigation = () => {
                 />
                 <span className='hidden lg:block'>Images</span>
               </li>
-            </a>
-            <a href='#'>
+            </Link>
+            <Link to='/Lists'>
               {' '}
               <li className={linkStyle.li}>
                 <div
@@ -172,8 +178,8 @@ const Navigation = () => {
                 />
                 <span className='hidden lg:block'>Lists</span>
               </li>
-            </a>
-            <a href='#'>
+            </Link>
+            <Link to='/Modals'>
               {' '}
               <li className={linkStyle.li}>
                 <div
@@ -186,8 +192,8 @@ const Navigation = () => {
                 />
                 <span className='hidden lg:block'>Modals</span>
               </li>
-            </a>
-            <a href='#'>
+            </Link>
+            <Link to='/Navbars'>
               {' '}
               <li className={linkStyle.li}>
                 <div
@@ -200,9 +206,9 @@ const Navigation = () => {
                 />
                 <span className='hidden lg:block'>NavBars</span>
               </li>
-            </a>
+            </Link>
 
-            <a href='#'>
+            <Link to='/Pages-resources'>
               {' '}
               <li className={linkStyle.li}>
                 <div
@@ -215,8 +221,8 @@ const Navigation = () => {
                 />
                 <span className='hidden lg:block'>Pages Resources</span>
               </li>
-            </a>
-            <a href='#'>
+            </Link>
+            <Link to='/Progress-bar'>
               {' '}
               <li className={linkStyle.li}>
                 <div
@@ -229,8 +235,8 @@ const Navigation = () => {
                 />
                 <span className='hidden lg:block'>Progress Bar</span>
               </li>
-            </a>
-            <a href='#'>
+            </Link>
+            <Link to='/Spinners'>
               {' '}
               <li className={linkStyle.li}>
                 <div
@@ -244,7 +250,7 @@ const Navigation = () => {
                 <span className='hidden lg:block'>Spinners</span>
               </li>
               <hr className='mt-4 border-slate-800' />
-            </a>
+            </Link>
             <a
               href='https://santiagoaguilar-devfront.netlify.app/'
               target='_blank'
