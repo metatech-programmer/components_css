@@ -1,4 +1,4 @@
-import ButtonComponent from '../../components/Buttons/Button'
+import AccordionsComponent from '../../components/Accordions/Accordions'
 
 const AccordionsPage = () => {
   const title = 'Examples Accordions'
@@ -7,7 +7,7 @@ const AccordionsPage = () => {
       <h1 className='text-3xl font-semibold text-balance text-center'>
         {title}
       </h1>
-      <ButtonComponent ></ButtonComponent>
+      <AccordionsComponent></AccordionsComponent>
     </div>
   )
 }
