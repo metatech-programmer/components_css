@@ -1,4 +1,4 @@
-import ButtonComponent from '../../components/Buttons/Button'
+import ImageComponent from '../../components/Images/Image'
 
 const ImagesPage = () => {
   const title = 'Examples Images'
@@ -7,7 +7,7 @@ const ImagesPage = () => {
       <h1 className='text-3xl font-semibold text-balance text-center'>
         {title}
       </h1>
-      <ButtonComponent ></ButtonComponent>
+      <ImageComponent ></ImageComponent>
     </div>
   )
 }

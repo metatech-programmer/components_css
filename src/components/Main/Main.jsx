@@ -5,7 +5,7 @@ import NavbarsPage from '../../Pages/Navbars/index'
 import ModalsPage from '../../Pages/Modals/index'
 import FootersPage from '../../Pages/Footers/index'
 import BadgesPage from '../../Pages/Badges/index'
-import CarrouselsPage from '../../Pages/Carrousel/index'
+import CarouselsPage from '../../Pages/Carousel/index'
 import ImagesPage from '../../Pages/Images/index'
 import SpinnersPage from '../../Pages/Spinners/index'
 import CardsPage from '../../Pages/Cards/index'
@@ -27,7 +27,7 @@ const Main = () => {
       <Route path='/Modals' component={ModalsPage.page} />
       <Route path='/Footers' component={FootersPage.page} />
       <Route path='/Badges' component={BadgesPage.page} />
-      <Route path='/Carrousels' component={CarrouselsPage.page} />
+      <Route path='/Carousels' component={CarouselsPage.page} />
       <Route path='/Images' component={ImagesPage.page} />
       <Route path='/Spinners' component={SpinnersPage.page} />
       <Route path='/Cards' component={CardsPage.page} />

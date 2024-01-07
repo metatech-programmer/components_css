@@ -1,4 +1,4 @@
-import AccordionsComponent from '../../components/Accordions/Accordions'
+import AccordionsComponent from '../../components/Accordions/Accordion'
 
 const AccordionsPage = () => {
   const title = 'Examples Accordions'

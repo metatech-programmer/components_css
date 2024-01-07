@@ -1,17 +1,17 @@
-import ButtonComponent from '../../components/Buttons/Button'
+import NavbarComponent from '../../components/Navbars/Navbar'
 
-const NavBarsPage = () => {
-  const title = 'Examples NavBars'
+const NavbarsPage = () => {
+  const title = 'Examples Navbars'
   return (
     <div className='w-full flex flex-col gap-y-10 flex-wrap items-center justify-center'>
       <h1 className='text-3xl font-semibold text-balance text-center'>
         {title}
       </h1>
-      <ButtonComponent ></ButtonComponent>
+      <NavbarComponent ></NavbarComponent>
     </div>
   )
 }
 
 export default {
-  page: NavBarsPage
+  page: NavbarsPage
 }

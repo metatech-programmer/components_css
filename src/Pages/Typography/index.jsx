@@ -1,4 +1,4 @@
-import ButtonComponent from '../../components/Buttons/Button'
+import TypographyComponent from '../../components/Typography/Typography'
 
 const TypographyPage = () => {
   const title = 'Examples Typographies'
@@ -7,7 +7,7 @@ const TypographyPage = () => {
       <h1 className='text-3xl font-semibold text-balance text-center'>
         {title}
       </h1>
-      <ButtonComponent ></ButtonComponent>
+      <TypographyComponent></TypographyComponent>
     </div>
   )
 }

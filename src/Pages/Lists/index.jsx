@@ -1,4 +1,4 @@
-import ButtonComponent from '../../components/Buttons/Button'
+import ListComponent from '../../components/Lists/List'
 
 const ListsPage = () => {
   const title = 'Examples Lists'
@@ -7,7 +7,7 @@ const ListsPage = () => {
       <h1 className='text-3xl font-semibold text-balance text-center'>
         {title}
       </h1>
-      <ButtonComponent ></ButtonComponent>
+      <ListComponent ></ListComponent>
     </div>
   )
 }

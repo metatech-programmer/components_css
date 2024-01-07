@@ -1,4 +1,4 @@
-import ButtonComponent from '../../components/Buttons/Button'
+import CardComponent from '../../components/Cards/Card'
 
 const CardsPage = () => {
   const title = 'Examples Cards'
@@ -7,7 +7,7 @@ const CardsPage = () => {
       <h1 className='text-3xl font-semibold text-balance text-center'>
         {title}
       </h1>
-      <ButtonComponent ></ButtonComponent>
+      <CardComponent ></CardComponent>
     </div>
   )
 }

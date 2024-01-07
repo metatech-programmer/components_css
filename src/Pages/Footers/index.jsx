@@ -1,4 +1,4 @@
-import ButtonComponent from '../../components/Buttons/Button'
+import FooterComponent from '../../components/Footers/Footer'
 
 const FootersPage = () => {
   const title = 'Examples Footers'
@@ -7,7 +7,7 @@ const FootersPage = () => {
       <h1 className='text-3xl font-semibold text-balance text-center'>
         {title}
       </h1>
-      <ButtonComponent ></ButtonComponent>
+      <FooterComponent ></FooterComponent>
     </div>
   )
 }

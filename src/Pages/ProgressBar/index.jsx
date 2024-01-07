@@ -1,4 +1,4 @@
-import ButtonComponent from '../../components/Buttons/Button'
+import ProgressBarComponent from '../../components/ProgressBar/ProgressBar'
 
 const ProgressBarPage = () => {
   const title = 'Examples Progress Bars'
@@ -7,7 +7,7 @@ const ProgressBarPage = () => {
       <h1 className='text-3xl font-semibold text-balance text-center'>
         {title}
       </h1>
-      <ButtonComponent ></ButtonComponent>
+      <ProgressBarComponent ></ProgressBarComponent>
     </div>
   )
 }

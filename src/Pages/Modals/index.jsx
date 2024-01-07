@@ -1,4 +1,4 @@
-import ButtonComponent from '../../components/Buttons/Button'
+import ModalComponent from '../../components/Modals/Modal'
 
 const ModalsPage = () => {
   const title = 'Examples Modals'
@@ -7,7 +7,7 @@ const ModalsPage = () => {
       <h1 className='text-3xl font-semibold text-balance text-center'>
         {title}
       </h1>
-      <ButtonComponent ></ButtonComponent>
+      <ModalComponent ></ModalComponent>
     </div>
   )
 }

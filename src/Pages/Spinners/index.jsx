@@ -1,4 +1,4 @@
-import ButtonComponent from '../../components/Buttons/Button'
+import SpinnerComponent from '../../components/Spinners/Spinner'
 
 const SpinnersPage = () => {
   const title = 'Examples Spinners'
@@ -7,7 +7,7 @@ const SpinnersPage = () => {
       <h1 className='text-3xl font-semibold text-balance text-center'>
         {title}
       </h1>
-      <ButtonComponent ></ButtonComponent>
+      <SpinnerComponent ></SpinnerComponent>
     </div>
   )
 }
