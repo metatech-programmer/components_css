@@ -13,11 +13,14 @@ import navbar from '../../assets/icons_components/navbar.svg'
 import pages from '../../assets/icons_components/pages.svg'
 import progressBar from '../../assets/icons_components/progressBar.svg'
 import spinners from '../../assets/icons_components/spinners.svg'
-import { Link } from 'wouter'
+import { Link, useLocation } from 'wouter'
 
 const Navigation = () => {
+  const [location] = useLocation()
+
   const linkStyle = {
-    li: 'bg-slate-800 p-2 rounded-xl hover:font-semibold active:ring-4 ring-blue-300 hover:bg-slate-900 transition-colors duration-300 pl-5 flex items-center h-11 hover:ml-2'
+    li: `bg-slate-800 p-2 rounded-xl hover:font-semibold active:ring-4 ring-blue-300 hover:bg-slate-900 transition-colors duration-300 pl-5 flex items-center h-11 hover:scale-110`,
+    li_location: 'bg-slate-900 scale-110 text-slate-600 ring-2',
   }
 
   /* ------------------------------------------- */
@@ -54,7 +57,11 @@ const Navigation = () => {
           <ul className='flex flex-col gap-2 text-white items-center pb-6  lg:items-stretch'>
             <Link to='/Accordions'>
               {' '}
-              <li className={linkStyle.li}>
+              <li
+                className={`${linkStyle.li} ${
+                  location === '/Accordions' && linkStyle.li_location
+                }`}
+              >
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
@@ -69,7 +76,11 @@ const Navigation = () => {
             </Link>
             <Link to='/Badges'>
               {' '}
-              <li className={linkStyle.li}>
+              <li
+                className={`${linkStyle.li} ${
+                  location === '/Badges' && linkStyle.li_location
+                }`}
+              >
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
@@ -83,7 +94,11 @@ const Navigation = () => {
             </Link>
             <Link to='/Buttons'>
               {' '}
-              <li className={linkStyle.li}>
+              <li
+                className={`${linkStyle.li} ${
+                  location === '/Buttons' && linkStyle.li_location
+                }`}
+              >
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
@@ -97,7 +112,11 @@ const Navigation = () => {
             </Link>
             <Link to='/Cards'>
               {' '}
-              <li className={linkStyle.li}>
+              <li
+                className={`${linkStyle.li} ${
+                  location === '/Cards' && linkStyle.li_location
+                }`}
+              >
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
@@ -111,7 +130,11 @@ const Navigation = () => {
             </Link>
             <Link to='/Carousels'>
               {' '}
-              <li className={linkStyle.li}>
+              <li
+                className={`${linkStyle.li} ${
+                  location === '/Carousels' && linkStyle.li_location
+                }`}
+              >
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
@@ -125,7 +148,11 @@ const Navigation = () => {
             </Link>
             <Link to='/Typography'>
               {' '}
-              <li className={linkStyle.li}>
+              <li
+                className={`${linkStyle.li} ${
+                  location === '/Typography' && linkStyle.li_location
+                }`}
+              >
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
@@ -139,7 +166,11 @@ const Navigation = () => {
             </Link>
             <Link to='/Footers'>
               {' '}
-              <li className={linkStyle.li}>
+              <li
+                className={`${linkStyle.li} ${
+                  location === '/Footers' && linkStyle.li_location
+                }`}
+              >
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
@@ -153,7 +184,11 @@ const Navigation = () => {
             </Link>
             <Link to='/Images'>
               {' '}
-              <li className={linkStyle.li}>
+              <li
+                className={`${linkStyle.li} ${
+                  location === '/Images' && linkStyle.li_location
+                }`}
+              >
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
@@ -167,7 +202,11 @@ const Navigation = () => {
             </Link>
             <Link to='/Lists'>
               {' '}
-              <li className={linkStyle.li}>
+              <li
+                className={`${linkStyle.li} ${
+                  location === '/Lists' && linkStyle.li_location
+                }`}
+              >
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
@@ -181,7 +220,11 @@ const Navigation = () => {
             </Link>
             <Link to='/Modals'>
               {' '}
-              <li className={linkStyle.li}>
+              <li
+                className={`${linkStyle.li} ${
+                  location === '/Modals' && linkStyle.li_location
+                }`}
+              >
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
@@ -195,7 +238,11 @@ const Navigation = () => {
             </Link>
             <Link to='/Navbars'>
               {' '}
-              <li className={linkStyle.li}>
+              <li
+                className={`${linkStyle.li} ${
+                  location === '/Navbars' && linkStyle.li_location
+                }`}
+              >
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
@@ -210,7 +257,11 @@ const Navigation = () => {
 
             <Link to='/Pages-resources'>
               {' '}
-              <li className={linkStyle.li}>
+              <li
+                className={`${linkStyle.li} ${
+                  location === '/Pages-resources' && linkStyle.li_location
+                }`}
+              >
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
@@ -224,7 +275,11 @@ const Navigation = () => {
             </Link>
             <Link to='/Progress-bar'>
               {' '}
-              <li className={linkStyle.li}>
+              <li
+                className={`${linkStyle.li} ${
+                  location === '/Progress-bar' && linkStyle.li_location
+                }`}
+              >
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
@@ -238,7 +293,11 @@ const Navigation = () => {
             </Link>
             <Link to='/Spinners'>
               {' '}
-              <li className={linkStyle.li}>
+              <li
+                className={`${linkStyle.li} ${
+                  location === '/Spinners' && linkStyle.li_location
+                }`}
+              >
                 <div
                   slot='image'
                   className='w-8 h-8 mr-3'
