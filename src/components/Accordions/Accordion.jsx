@@ -9,12 +9,12 @@ const AccordionComponents = () => {
   }
   const textos = {
     titulo_texto: {
-      uno: 'Accordion One',
-      dos: 'Accordion Two',
-      tres: 'Accordion Three',
-      cuatro: 'Accordion Four',
-      cinco: 'Accordion Five',
-      seis: 'Accordion Six'
+      uno: 'Accordion One :',
+      dos: 'Accordion Two :',
+      tres: 'Accordion Three :',
+      cuatro: 'Accordion Four :',
+      cinco: 'Accordion Five :',
+      seis: 'Accordion Six :'
     }
   }
 

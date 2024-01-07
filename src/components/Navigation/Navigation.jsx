@@ -9,7 +9,6 @@ import footers from '../../assets/icons_components/footers.svg'
 import images from '../../assets/icons_components/images.svg'
 import lists from '../../assets/icons_components/lists.svg'
 import modals from '../../assets/icons_components/modals.svg'
-import navbar from '../../assets/icons_components/navbar.svg'
 import pages from '../../assets/icons_components/pages.svg'
 import progressBar from '../../assets/icons_components/progressBar.svg'
 import spinners from '../../assets/icons_components/spinners.svg'
@@ -234,24 +233,6 @@ const Navigation = () => {
                   }}
                 />
                 <span className='hidden lg:block'>Modals</span>
-              </li>
-            </Link>
-            <Link to='/Navbars'>
-              {' '}
-              <li
-                className={`${linkStyle.li} ${
-                  location === '/Navbars' && linkStyle.li_location
-                }`}
-              >
-                <div
-                  slot='image'
-                  className='w-8 h-8 mr-3'
-                  style={{
-                    backgroundImage: `url("${navbar}")`,
-                    backgroundSize: 'cover'
-                  }}
-                />
-                <span className='hidden lg:block'>NavBars</span>
               </li>
             </Link>
 

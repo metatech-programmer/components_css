@@ -9,12 +9,12 @@ const BadgeComponents = () => {
   }
   const textos = {
     titulo_texto: {
-      uno: 'Badge One',
-      dos: 'Badge Two',
-      tres: 'Badge Three',
-      cuatro: 'Badge Four',
-      cinco: 'Badge Five',
-      seis: 'Badge Six'
+      uno: 'Badge One :',
+      dos: 'Badge Two :',
+      tres: 'Badge Three :',
+      cuatro: 'Badge Four :',
+      cinco: 'Badge Five :',
+      seis: 'Badge Six :'
     }
   }
 
@@ -25,8 +25,31 @@ const BadgeComponents = () => {
         {/* Badge 1 */}
         <div className={boxStyle.hijo}>
           <h2 className={boxStyle.titulo}>{textos.titulo_texto.uno}</h2>
-          <div className='mx-4 border rounded-xl p-4'>
-            
+          <div className=' flex  flex-wrap mx-4 border rounded-xl p-4 gap-3 items-center justify-center'>
+            <span className='inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-2 ring-inset  ring-gray-500'>
+              Badge
+            </span>
+            <span className='inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-2 ring-inset  ring-red-600'>
+              Badge
+            </span>
+            <span className='inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-2 ring-inset   ring-yellow-600'>
+              Badge
+            </span>
+            <span className='inline-flex items-center rounded-md  px-2 py-1 text-xs font-medium ring-2 ring-inset  ring-green-600'>
+              Badge
+            </span>
+            <span className='inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-2 ring-inset   ring-blue-700'>
+              Badge
+            </span>
+            <span className='inline-flex items-center rounded-md  px-2 py-1 text-xs font-medium ring-2 ring-inset  ring-indigo-700'>
+              Badge
+            </span>
+            <span className='inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-2 ring-inset ring-purple-700'>
+              Badge
+            </span>
+            <span className='inline-flex items-center rounded-md  px-2 py-1 text-xs font-medium ring-2 ring-inset   ring-pink-700'>
+              Badge
+            </span>
           </div>
           <p className='text-xs text-center text-balance '>
             copy code{' '}
