@@ -1,7 +1,6 @@
 import ButtonPage from '../../Pages/Buttons/index'
 import AccordionsPage from '../../Pages/Accordions/index'
 import ListsPage from '../../Pages/Lists/index'
-import NavbarsPage from '../../Pages/Navbars/index'
 import ModalsPage from '../../Pages/Modals/index'
 import FootersPage from '../../Pages/Footers/index'
 import BadgesPage from '../../Pages/Badges/index'
@@ -23,7 +22,6 @@ const Main = () => {
       <Route path='/Buttons' component={ButtonPage.page} />
       <Route path='/Accordions' component={AccordionsPage.page} />
       <Route path='/Lists' component={ListsPage.page} />
-      <Route path='/Navbars' component={NavbarsPage.page} />
       <Route path='/Modals' component={ModalsPage.page} />
       <Route path='/Footers' component={FootersPage.page} />
       <Route path='/Badges' component={BadgesPage.page} />
