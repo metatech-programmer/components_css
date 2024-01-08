@@ -142,7 +142,7 @@ const Navigation = () => {
                     backgroundSize: 'cover'
                   }}
                 />
-                <span className='hidden lg:block'>Carousel</span>
+                <span className='hidden lg:block'>Carousels</span>
               </li>
             </Link>
             <Link to='/Typography'>
@@ -160,7 +160,7 @@ const Navigation = () => {
                     backgroundSize: 'cover'
                   }}
                 />
-                <span className='hidden lg:block'>Fonts</span>
+                <span className='hidden lg:block'>Typographies</span>
               </li>
             </Link>
             <Link to='/Footers'>
