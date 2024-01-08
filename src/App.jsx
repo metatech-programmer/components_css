@@ -9,8 +9,8 @@ function App() {
 		<Router>
 			<div className="w-screen h-screen font-sans dark:text-slate-200 overflow-auto bg-gradient-to-t from-gray-800 to-50% to-gray-950">
 				<Header />
-				<Main/>
-				<Footer/>
+				<Main />
+				<Footer />
 			</div>
 		</Router>
 	);

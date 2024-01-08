@@ -8,10 +8,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['Comfortaa', 'sans-serif'],
+        sans: ["Comfortaa", "sans-serif"],
       },
     },
   },
-  plugins: [
-]
-}
+  plugins: [],
+};
