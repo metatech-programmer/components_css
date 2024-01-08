@@ -26,6 +26,7 @@ const ButtonComponents = () => {
 				<div className={boxStyle.hijo}>
 					<h2 className={boxStyle.titulo}>{textos.titulo_texto.uno}</h2>
 
+					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 					<button className="w-36 h-16 border rounded-xl hover:font-semibold active:ring-4 m-auto">
 						Click Here
 					</button>
@@ -43,6 +44,7 @@ const ButtonComponents = () => {
 				{/* Button 2 */}
 				<div className={boxStyle.hijo}>
 					<h2 className={boxStyle.titulo}>{textos.titulo_texto.dos}</h2>
+					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 					<button className="w-36 h-16 border rounded-xl hover:font-semibold active:ring-4 hover:bg-slate-900 transition-all m-auto">
 						Click Here
 					</button>
@@ -60,6 +62,7 @@ const ButtonComponents = () => {
 				{/* Button 3 */}
 				<div className={boxStyle.hijo}>
 					<h2 className={boxStyle.titulo}>{textos.titulo_texto.tres}</h2>
+					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 					<button className="w-36 h-16 border rounded-xl hover:font-semibold active:ring-4 hover:bg-slate-900 active:bg-slate-950 transition-all m-auto">
 						Click Here
 					</button>
@@ -78,6 +81,7 @@ const ButtonComponents = () => {
 				<div className={boxStyle.hijo}>
 					<h2 className={boxStyle.titulo}>{textos.titulo_texto.cuatro}</h2>
 
+					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 					<button className="w-36 h-16 border rounded-xl hover:font-semibold active:ring-4 hover:bg-slate-900 active:bg-slate-950 active:text-lg transition-all m-auto">
 						Click Here
 					</button>
@@ -95,6 +99,7 @@ const ButtonComponents = () => {
 				{/* Button 5 */}
 				<div className={boxStyle.hijo}>
 					<h2 className={boxStyle.titulo}>{textos.titulo_texto.cinco}</h2>
+					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 					<button className="w-36 h-16 border rounded-xl hover:font-semibold active:ring-4 hover:bg-slate-900 active:bg-slate-950 active:text-lg transition-all hover:underline  underline-offset-4 active:underline-offset-8 m-auto">
 						Click Here
 					</button>
@@ -112,6 +117,7 @@ const ButtonComponents = () => {
 				{/* Button 6 */}
 				<div className={boxStyle.hijo}>
 					<h2 className={boxStyle.titulo}>{textos.titulo_texto.seis}</h2>
+					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 					<button className="w-36 h-16 border rounded-xl hover:font-semibold active:ring-4 hover:bg-slate-900 active:bg-slate-950 active:text-lg transition-all hover:underline  underline-offset-4 active:underline-offset-8 m-auto italic">
 						Click Here
 					</button>
@@ -140,6 +146,7 @@ const ButtonComponents = () => {
 				{/* Button 1 */}
 				<div className="h-auto w-40  flex text-left flex-col m-auto border p-2 gap-5 rounded-md">
 					<h2 className={boxStyle.titulo}>{textos.titulo_texto.uno}</h2>
+					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 					<button className="w-36 h-16 border rounded-xl hover:font-semibold active:ring-4 m-auto bg-cyan-600 ring-white border-white">
 						Click Here
 					</button>
@@ -157,6 +164,7 @@ const ButtonComponents = () => {
 				{/* Button 2 */}
 				<div className={boxStyle.hijo}>
 					<h2 className={boxStyle.titulo}>{textos.titulo_texto.dos}</h2>
+					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 					<button className="w-36 h-16 border rounded-xl hover:font-semibold active:ring-4 hover:bg-blue-950 transition-all m-auto bg-blue-800 ring-blue-400">
 						Click Here
 					</button>
@@ -174,6 +182,7 @@ const ButtonComponents = () => {
 				{/* Button 3 */}
 				<div className={boxStyle.hijo}>
 					<h2 className={boxStyle.titulo}>{textos.titulo_texto.tres}</h2>
+					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 					<button className="w-36 h-16 border rounded-xl hover:font-semibold active:ring-4 hover:bg-purple-900 active:bg-purple-950 transition-all m-auto bg-purple-700 ring-purple-400">
 						Click Here
 					</button>
@@ -192,6 +201,7 @@ const ButtonComponents = () => {
 				<div className={boxStyle.hijo}>
 					<h2 className={boxStyle.titulo}>{textos.titulo_texto.cuatro}</h2>
 
+					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 					<button className="w-36 h-16 border rounded-xl hover:font-semibold active:ring-4 hover:bg-pink-800 active:bg-pink-900 active:text-lg transition-all m-auto bg-pink-500 ring-pink-200 ">
 						Click Here
 					</button>
@@ -209,6 +219,7 @@ const ButtonComponents = () => {
 				{/* Button 5 */}
 				<div className={boxStyle.hijo}>
 					<h2 className={boxStyle.titulo}>{textos.titulo_texto.cinco}</h2>
+					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 					<button className="w-36 h-16 border rounded-xl hover:font-semibold active:ring-4 hover:bg-fuchsia-600 active:bg-fuchsia-700 active:text-lg transition-all hover:underline  underline-offset-4 active:underline-offset-8 m-auto bg-fuchsia-500 ring-fuchsia-200 ">
 						Click Here
 					</button>
@@ -226,6 +237,7 @@ const ButtonComponents = () => {
 				{/* Button 6 */}
 				<div className={boxStyle.hijo}>
 					<h2 className={boxStyle.titulo}>{textos.titulo_texto.seis}</h2>
+					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 					<button className="w-36 h-16 border rounded-xl hover:font-bold active:ring-4 hover:bg-yellow-500 active:bg-yellow-600 active:text-lg transition-all hover:underline  underline-offset-4 active:underline-offset-8 m-auto italic bg-yellow-300 ring-yellow-100 font-semibold text-gray-950 active:text-white">
 						Click Here
 					</button>
@@ -255,6 +267,7 @@ const ButtonComponents = () => {
 				{/* Button 1 */}
 				<div className="h-auto w-40  flex text-left flex-col m-auto border p-2 gap-5 rounded-md">
 					<h2 className={boxStyle.titulo}>{textos.titulo_texto.uno}</h2>
+					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 					<button
 						style={{ textShadow: "0px 1px 8px white" }}
 						className="w-36 h-16 shadow-md  shadow-cyan-200 border rounded-xl hover:font-semibold active:ring-4 m-auto bg-cyan-600 ring-white border-white"
@@ -275,6 +288,7 @@ const ButtonComponents = () => {
 				{/* Button 2 */}
 				<div className={boxStyle.hijo}>
 					<h2 className={boxStyle.titulo}>{textos.titulo_texto.dos}</h2>
+					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 					<button
 						style={{ textShadow: "0px 1px 8px white" }}
 						className="w-36 h-16 shadow-md  shadow-blue-200 border rounded-xl hover:font-semibold active:ring-4 hover:bg-blue-950 transition-all m-auto bg-blue-800 ring-blue-400"
@@ -295,6 +309,7 @@ const ButtonComponents = () => {
 				{/* Button 3 */}
 				<div className={boxStyle.hijo}>
 					<h2 className={boxStyle.titulo}>{textos.titulo_texto.tres}</h2>
+					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 					<button
 						style={{ textShadow: "0px 1px 8px white" }}
 						className="w-36 h-16 shadow-md  shadow-purple-200 border rounded-xl hover:font-semibold active:ring-4 hover:bg-purple-900 active:bg-purple-950 transition-all m-auto bg-purple-700 ring-purple-400"
@@ -316,6 +331,7 @@ const ButtonComponents = () => {
 				<div className={boxStyle.hijo}>
 					<h2 className={boxStyle.titulo}>{textos.titulo_texto.cuatro}</h2>
 
+					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 					<button
 						style={{ textShadow: "0px 1px 8px white" }}
 						className="w-36 h-16 shadow-md  shadow-pink-200 border rounded-xl hover:font-semibold active:ring-4 hover:bg-pink-800 active:bg-pink-900 active:text-lg transition-all m-auto bg-pink-500 ring-pink-200 "
@@ -336,6 +352,7 @@ const ButtonComponents = () => {
 				{/* Button 5 */}
 				<div className={boxStyle.hijo}>
 					<h2 className={boxStyle.titulo}>{textos.titulo_texto.cinco}</h2>
+					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 					<button
 						style={{ textShadow: "0px 1px 8px white" }}
 						className="w-36 h-16 shadow-md  shadow-fuchsia-200 border rounded-xl hover:font-semibold active:ring-4 hover:bg-fuchsia-600 active:bg-fuchsia-700 active:text-lg transition-all hover:underline  underline-offset-4 active:underline-offset-8 m-auto bg-fuchsia-500 ring-fuchsia-200 "
@@ -356,6 +373,8 @@ const ButtonComponents = () => {
 				{/* Button 6 */}
 				<div className={boxStyle.hijo}>
 					<h2 className={boxStyle.titulo}>{textos.titulo_texto.seis}</h2>
+					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
+					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 					<button
 						style={{ textShadow: "0px 1px 8px black" }}
 						className="w-36 h-16 shadow-md  shadow-yellow-200 border rounded-xl hover:font-bold active:ring-4 hover:bg-yellow-500 active:bg-yellow-600 active:text-lg transition-all hover:underline  underline-offset-4 active:underline-offset-8 m-auto italic bg-yellow-300 ring-yellow-100 font-semibold text-gray-950 active:text-white"
@@ -380,7 +399,7 @@ const ButtonComponents = () => {
 					<span
 						className="text-blue-900"
 						style={{
-							background: "linear-gradient(to right, #www00CCFF, #wwwffebcd)",
+							background: "linear-gradient(to right, #00CCFF, #ffebcd)",
 							WebkitBackgroundClip: "text",
 							color: "transparent",
 							display: "inline-block",
@@ -393,6 +412,7 @@ const ButtonComponents = () => {
 				{/* Button 1 */}
 				<div className="h-auto w-40  flex text-left flex-col m-auto border p-2 gap-5 rounded-md">
 					<h2 className={boxStyle.titulo}>{textos.titulo_texto.uno}</h2>
+					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 					<button
 						style={{ textShadow: "0px 1px 8px white" }}
 						className="w-36 h-16 shadow-md  shadow-cyan-600 border rounded-xl hover:font-semibold active:ring-4 m-auto
@@ -414,6 +434,7 @@ const ButtonComponents = () => {
 				{/* Button 2 */}
 				<div className={boxStyle.hijo}>
 					<h2 className={boxStyle.titulo}>{textos.titulo_texto.dos}</h2>
+					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 					<button
 						style={{ textShadow: "0px 1px 8px white" }}
 						className="w-36 h-16 shadow-md  shadow-blue-600 border rounded-xl hover:font-semibold active:ring-4  transition-all m-auto bg-gradient-to-b from-blue-600 to-90% to-blue-200 ring-blue-400"
@@ -434,6 +455,7 @@ const ButtonComponents = () => {
 				{/* Button 3 */}
 				<div className={boxStyle.hijo}>
 					<h2 className={boxStyle.titulo}>{textos.titulo_texto.tres}</h2>
+					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 					<button
 						style={{ textShadow: "0px 1px 8px white" }}
 						className="w-36 h-16 shadow-md  shadow-purple-600 border rounded-xl hover:font-semibold active:ring-4 transition-all m-auto  bg-gradient-to-b from-purple-600 to-95% to-purple-200 ring-purple-800"
@@ -455,6 +477,7 @@ const ButtonComponents = () => {
 				<div className={boxStyle.hijo}>
 					<h2 className={boxStyle.titulo}>{textos.titulo_texto.cuatro}</h2>
 
+					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 					<button
 						style={{ textShadow: "0px 1px 8px white" }}
 						className="w-36 h-16 shadow-md  shadow-pink-600 border rounded-xl hover:font-semibold active:ring-4  active:text-lg transition-all m-auto ring-pink-200  bg-gradient-to-b from-pink-600 to-95% to-pink-200 "
@@ -475,6 +498,7 @@ const ButtonComponents = () => {
 				{/* Button 5 */}
 				<div className={boxStyle.hijo}>
 					<h2 className={boxStyle.titulo}>{textos.titulo_texto.cinco}</h2>
+					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 					<button
 						style={{ textShadow: "0px 1px 8px white" }}
 						className="w-36 h-16 shadow-md  shadow-fuchsia-600 border rounded-xl hover:font-semibold active:ring-4 active:text-lg transition-all hover:underline  underline-offset-4 active:underline-offset-8 m-auto ring-fuchsia-200  bg-gradient-to-b from-fuchsia-600 to-95% to-fuchsia-200 "
@@ -495,6 +519,7 @@ const ButtonComponents = () => {
 				{/* Button 6 */}
 				<div className={boxStyle.hijo}>
 					<h2 className={boxStyle.titulo}>{textos.titulo_texto.seis}</h2>
+					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 					<button
 						style={{ textShadow: "0px 1px 8px white" }}
 						className="w-36 h-16 shadow-md  shadow-yellow-600 border rounded-xl hover:font-bold active:ring-4 active:text-lg transition-all hover:underline  underline-offset-4 active:underline-offset-8 m-auto italic ring-yellow-100 font-semibold text-white active:text-white  bg-gradient-to-b from-yellow-600 to-95% to-yellow-200"
