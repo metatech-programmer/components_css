@@ -34,17 +34,17 @@ const CarouselComponents = () => {
             >
               <img
                 className='w-full border border-black object-cover object-center snap-center'
-                src='https://via.placeholder.com/300'
+                src='https://via.placeholder.com/3000'
                 alt='img1'
               />
               <img
                 className='w-full border border-black object-cover object-center snap-center'
-                src='https://via.placeholder.com/300'
+                src='https://via.placeholder.com/4000'
                 alt='img2'
               />
               <img
                 className='w-[100%] border border-black object-cover object-center snap-center'
-                src='https://via.placeholder.com/600'
+                src='https://via.placeholder.com/6000'
                 alt='img3'
               />
             </section>
