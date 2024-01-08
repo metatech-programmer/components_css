@@ -13,25 +13,27 @@ import PagesResourcesPage from '../../Pages/PagesResources/index'
 import ProgressBarsPage from '../../Pages/ProgressBar/index'
 
 import Home from '../../Pages/Home/Home'
-import { Route } from 'wouter'
+import { Route, Switch } from 'wouter'
 
 const Main = () => {
   return (
     <main className=' pl-40 pr-4 pb-4 lg:pr-0 lg:pl-80 pt-12 '>
-      <Route path='/' exact component={Home} />
-      <Route path='/Buttons' component={ButtonPage.page} />
-      <Route path='/Accordions' component={AccordionsPage.page} />
-      <Route path='/Lists' component={ListsPage.page} />
-      <Route path='/Modals' component={ModalsPage.page} />
-      <Route path='/Footers' component={FootersPage.page} />
-      <Route path='/Badges' component={BadgesPage.page} />
-      <Route path='/Carousels' component={CarouselsPage.page} />
-      <Route path='/Images' component={ImagesPage.page} />
-      <Route path='/Spinners' component={SpinnersPage.page} />
-      <Route path='/Cards' component={CardsPage.page} />
-      <Route path='/Typography' component={TypographyPage.page} />
-      <Route path='/Pages-resources' component={PagesResourcesPage.page} />
-      <Route path='/Progress-bar' component={ProgressBarsPage.page} />
+      <Switch>
+        <Route path='/' exact component={Home} />
+        <Route path='/Buttons' component={ButtonPage.page} />
+        <Route path='/Accordions' component={AccordionsPage.page} />
+        <Route path='/Lists' component={ListsPage.page} />
+        <Route path='/Modals' component={ModalsPage.page} />
+        <Route path='/Footers' component={FootersPage.page} />
+        <Route path='/Badges' component={BadgesPage.page} />
+        <Route path='/Carousels' component={CarouselsPage.page} />
+        <Route path='/Images' component={ImagesPage.page} />
+        <Route path='/Spinners' component={SpinnersPage.page} />
+        <Route path='/Cards' component={CardsPage.page} />
+        <Route path='/Typography' component={TypographyPage.page} />
+        <Route path='/Pages-resources' component={PagesResourcesPage.page} />
+        <Route path='/Progress-bar' component={ProgressBarsPage.page} />
+      </Switch>
     </main>
   )
 }
