@@ -1,9 +1,9 @@
 import TypographyComponent from "./TypographyComponent";
-import font1001 from "../../assets/fonts/1001_fonts.png";
-import fontFabric from "../../assets/fonts/font_fabric.png";
-import fontTesk from "../../assets/fonts/fontesk.png";
-import fontGoogle from "../../assets/fonts/google_fonts.png";
-import fontQuirre from "../../assets/fonts/fonts_quirre.png";
+import font1001 from "../../assets/fonts/1001_fonts.webp";
+import fontFabric from "../../assets/fonts/font_fabric.webp";
+import fontTesk from "../../assets/fonts/fontesk.webp";
+import fontGoogle from "../../assets/fonts/google_fonts.webp";
+import fontQuirre from "../../assets/fonts/fonts_quirre.webp";
 
 const TypographyComponents = () => {
 	const boxStyle = {
