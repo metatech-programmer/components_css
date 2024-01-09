@@ -127,7 +127,7 @@ const Navigation = () => {
 								<span className="hidden lg:block">Cards</span>
 							</li>
 						</Link>
-						<Link to="/Carousels">
+						<Link to="/Carousels" rel="preload">
 							{" "}
 							<li
 								className={`${linkStyle.li} ${
@@ -145,7 +145,7 @@ const Navigation = () => {
 								<span className="hidden lg:block">Carousels</span>
 							</li>
 						</Link>
-						<Link to="/Typography">
+						<Link to="/Typography" rel="preload">
 							{" "}
 							<li
 								className={`${linkStyle.li} ${
