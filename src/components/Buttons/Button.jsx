@@ -33,7 +33,7 @@ const ButtonComponents = () => {
 					<p className="text-xs text-center text-balance ">
 						copy code{" "}
 						<a
-							href="#www"
+							href="#www"  
 							className="underline underline-offset-2 text-sky-400 hover:text-sky-700"
 						>
 							{" "}
@@ -51,7 +51,7 @@ const ButtonComponents = () => {
 					<p className="text-xs text-center text-balance ">
 						copy code{" "}
 						<a
-							href="#www"
+							href="#www"  
 							className="underline underline-offset-2 text-sky-400 hover:text-sky-700"
 						>
 							{" "}
@@ -69,7 +69,7 @@ const ButtonComponents = () => {
 					<p className="text-xs text-center text-balance ">
 						copy code{" "}
 						<a
-							href="#www"
+							href="#www"  
 							className="underline underline-offset-2 text-sky-400 hover:text-sky-700"
 						>
 							{" "}
@@ -88,7 +88,7 @@ const ButtonComponents = () => {
 					<p className="text-xs text-center text-balance ">
 						copy code{" "}
 						<a
-							href="#www"
+							href="#www"  
 							className="underline underline-offset-2 text-sky-400 hover:text-sky-700"
 						>
 							{" "}
@@ -106,7 +106,7 @@ const ButtonComponents = () => {
 					<p className="text-xs text-center text-balance ">
 						copy code{" "}
 						<a
-							href="#www"
+							href="#www"  
 							className="underline underline-offset-2 text-sky-400 hover:text-sky-700 "
 						>
 							{" "}
@@ -124,7 +124,7 @@ const ButtonComponents = () => {
 					<p className="text-xs text-center text-balance ">
 						copy code{" "}
 						<a
-							href="#www"
+							href="#www"  
 							className="underline underline-offset-2 text-sky-400 hover:text-sky-700 "
 						>
 							{" "}
@@ -153,7 +153,7 @@ const ButtonComponents = () => {
 					<p className="text-xs text-center text-balance ">
 						copy code{" "}
 						<a
-							href="#www"
+							href="#www"  
 							className="underline underline-offset-2 text-sky-400 hover:text-sky-700"
 						>
 							{" "}
@@ -171,7 +171,7 @@ const ButtonComponents = () => {
 					<p className="text-xs text-center text-balance ">
 						copy code{" "}
 						<a
-							href="#www"
+							href="#www"  
 							className="underline underline-offset-2 text-sky-400 hover:text-sky-700"
 						>
 							{" "}
@@ -189,7 +189,7 @@ const ButtonComponents = () => {
 					<p className="text-xs text-center text-balance ">
 						copy code{" "}
 						<a
-							href="#www"
+							href="#www"  
 							className="underline underline-offset-2 text-sky-400 hover:text-sky-700"
 						>
 							{" "}
@@ -208,7 +208,7 @@ const ButtonComponents = () => {
 					<p className="text-xs text-center text-balance ">
 						copy code{" "}
 						<a
-							href="#www"
+							href="#www"  
 							className="underline underline-offset-2 text-sky-400 hover:text-sky-700"
 						>
 							{" "}
@@ -226,7 +226,7 @@ const ButtonComponents = () => {
 					<p className="text-xs text-center text-balance ">
 						copy code{" "}
 						<a
-							href="#www"
+							href="#www"  
 							className="underline underline-offset-2 text-sky-400 hover:text-sky-700 "
 						>
 							{" "}
@@ -244,7 +244,7 @@ const ButtonComponents = () => {
 					<p className="text-xs text-center text-balance ">
 						copy code{" "}
 						<a
-							href="#www"
+							href="#www"  
 							className="underline underline-offset-2 text-sky-400 hover:text-sky-700 "
 						>
 							{" "}
@@ -277,7 +277,7 @@ const ButtonComponents = () => {
 					<p className="text-xs text-center text-balance ">
 						copy code{" "}
 						<a
-							href="#www"
+							href="#www"  
 							className="underline underline-offset-2 text-sky-400 hover:text-sky-700"
 						>
 							{" "}
@@ -298,7 +298,7 @@ const ButtonComponents = () => {
 					<p className="text-xs text-center text-balance ">
 						copy code{" "}
 						<a
-							href="#www"
+							href="#www"  
 							className="underline underline-offset-2 text-sky-400 hover:text-sky-700"
 						>
 							{" "}
@@ -319,7 +319,7 @@ const ButtonComponents = () => {
 					<p className="text-xs text-center text-balance ">
 						copy code{" "}
 						<a
-							href="#www"
+							href="#www"  
 							className="underline underline-offset-2 text-sky-400 hover:text-sky-700"
 						>
 							{" "}
@@ -341,7 +341,7 @@ const ButtonComponents = () => {
 					<p className="text-xs text-center text-balance ">
 						copy code{" "}
 						<a
-							href="#www"
+							href="#www"  
 							className="underline underline-offset-2 text-sky-400 hover:text-sky-700"
 						>
 							{" "}
@@ -362,7 +362,7 @@ const ButtonComponents = () => {
 					<p className="text-xs text-center text-balance ">
 						copy code{" "}
 						<a
-							href="#www"
+							href="#www"  
 							className="underline underline-offset-2 text-sky-400 hover:text-sky-700 "
 						>
 							{" "}
@@ -384,7 +384,7 @@ const ButtonComponents = () => {
 					<p className="text-xs text-center text-balance ">
 						copy code{" "}
 						<a
-							href="#www"
+							href="#www"  
 							className="underline underline-offset-2 text-sky-400 hover:text-sky-700 "
 						>
 							{" "}
@@ -423,7 +423,7 @@ const ButtonComponents = () => {
 					<p className="text-xs text-center text-balance ">
 						copy code{" "}
 						<a
-							href="#www"
+							href="#www"  
 							className="underline underline-offset-2 text-sky-400 hover:text-sky-700"
 						>
 							{" "}
@@ -444,7 +444,7 @@ const ButtonComponents = () => {
 					<p className="text-xs text-center text-balance ">
 						copy code{" "}
 						<a
-							href="#www"
+							href="#www"  
 							className="underline underline-offset-2 text-sky-400 hover:text-sky-700"
 						>
 							{" "}
@@ -465,7 +465,7 @@ const ButtonComponents = () => {
 					<p className="text-xs text-center text-balance ">
 						copy code{" "}
 						<a
-							href="#www"
+							href="#www"  
 							className="underline underline-offset-2 text-sky-400 hover:text-sky-700"
 						>
 							{" "}
@@ -487,7 +487,7 @@ const ButtonComponents = () => {
 					<p className="text-xs text-center text-balance ">
 						copy code{" "}
 						<a
-							href="#www"
+							href="#www"  
 							className="underline underline-offset-2 text-sky-400 hover:text-sky-700"
 						>
 							{" "}
@@ -508,7 +508,7 @@ const ButtonComponents = () => {
 					<p className="text-xs text-center text-balance ">
 						copy code{" "}
 						<a
-							href="#www"
+							href="#www"  
 							className="underline underline-offset-2 text-sky-400 hover:text-sky-700 "
 						>
 							{" "}
@@ -529,7 +529,7 @@ const ButtonComponents = () => {
 					<p className="text-xs text-center text-balance ">
 						copy code{" "}
 						<a
-							href="#www"
+							href="#www"  
 							className="underline underline-offset-2 text-sky-400 hover:text-sky-700 "
 						>
 							{" "}

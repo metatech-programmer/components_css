@@ -59,7 +59,7 @@ const AccordionComponents = () => {
 						copy code{" "}
 						<a
 							href="#www"
-							className="underline underline-offset-2 text-sky-400 hover:text-sky-700"
+							className="underline underline-offset-2 text-sky-400 hover:text-sky-700" 
 						>
 							{" "}
 							Just Here{" "}

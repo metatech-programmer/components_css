@@ -36,7 +36,7 @@ const CardComponents = () => {
 								content.
 							</p>
 							<a
-								href="#www"
+								href="#www"  
 								className="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded py-1 px-3 mt-3 leading-normal no-underline bg-sky-600 text-white hover:bg-sky-700 "
 							>
 								Go somewhere
@@ -46,7 +46,7 @@ const CardComponents = () => {
 					<p className="text-xs text-center text-balance ">
 						copy code{" "}
 						<a
-							href="#www"
+							href="#www"  
 							className="underline underline-offset-2 text-sky-400 hover:text-sky-700"
 						>
 							{" "}

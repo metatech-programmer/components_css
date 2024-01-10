@@ -55,7 +55,7 @@ const BadgeComponents = () => {
 						copy code{" "}
 						<a
 							href="#wwww"
-							className="underline underline-offset-2 text-sky-400 hover:text-sky-700"
+							className="underline underline-offset-2 text-sky-400 hover:text-sky-700" 
 						>
 							{" "}
 							Just Here{" "}
