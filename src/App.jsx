@@ -7,7 +7,7 @@ import { Router } from "wouter";
 function App() {
 	return (
 		<Router>
-			<div className="w-screen h-screen font-sans dark:text-slate-200 overflow-auto bg-gradient-to-t from-gray-800 to-50% to-gray-950">
+			<div className="w-screen h-screen font-sans dark:text-slate-200 overflow-auto bg-gradient-to-t from-gray-700 to-50% to-gray-950">
 				<Header />
 				<Main />
 				<Footer />
