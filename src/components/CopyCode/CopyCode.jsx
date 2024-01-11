@@ -6,7 +6,8 @@ function ButtonComponents(props) {
 		let code = document.getElementById(`code_${number_code}`).innerText;
 		try {
 			await navigator.clipboard.writeText(code);
-			alert("Contenido copiado al portapapeles");
+			document.getElementById("popup").classList.remove("hidden");
+			document.getElementById("code_popup").innerText = code;
 		} catch (err) {
 			alert("Error al copiar: ", err);
 			console.error("Error al copiar: ", err);

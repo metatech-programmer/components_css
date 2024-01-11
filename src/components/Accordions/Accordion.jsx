@@ -17,7 +17,7 @@ const AccordionComponents = () => {
 	};
 
 	return (
-		<div className="flex flex-col gap-y-10">
+		<div className="flex flex-col gap-y-10 ">
 			<div className={boxStyle.father}>
 				<h2 className={boxStyle.subtitle}>Normal Accordions:</h2>
 				{/* Accordion 1 */}
