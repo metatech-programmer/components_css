@@ -1,3 +1,5 @@
+import CopyCode from "../CopyCode/CopyCode";
+
 const CardComponents = () => {
 	const boxStyle = {
 		padre:
@@ -25,6 +27,7 @@ const CardComponents = () => {
 				{/* Card 1 */}
 				<div className={boxStyle.hijo}>
 					<h2 className={boxStyle.titulo}>{textos.titulo_texto.uno}</h2>
+
 					<div className="mx-4  rounded-xl overflow-auto relative flex flex-col min-w-0  break-words border border-1 border-gray-300">
 						<div className="py-3 px-6 mb-0 bg-gray-500 border-b-1 border-gray-300 text-slate-200 font-bold">
 							Featured
@@ -32,27 +35,39 @@ const CardComponents = () => {
 						<div className="flex-auto p-6">
 							<h5 className="mb-3">Special title treatment</h5>
 							<p className="mb-0">
-								With supporting text below as a natural lead-in to additional
-								content.
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Perferendis obcaecati tempora quam animi, quod voluptatum nihil.
 							</p>
 							<a
-								href="#www"  
+								href="#www"
 								className="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded py-1 px-3 mt-3 leading-normal no-underline bg-sky-600 text-white hover:bg-sky-700 "
 							>
 								Go somewhere
 							</a>
 						</div>
 					</div>
-					<p className="text-xs text-center text-balance ">
-						copy code{" "}
-						<a
-							href="#www"  
-							className="underline underline-offset-2 text-sky-400 hover:text-sky-700"
-						>
-							{" "}
-							Just Here{" "}
-						</a>
-					</p>
+
+					<CopyCode
+						number_code={Math.floor(Math.random() * 10000)}
+						code={`<div className="mx-4  rounded-xl overflow-auto relative flex flex-col min-w-0  break-words border border-1 border-gray-300">
+						<div className="py-3 px-6 mb-0 bg-gray-500 border-b-1 border-gray-300 text-slate-200 font-bold">
+							Featured
+						</div>
+						<div className="flex-auto p-6">
+							<h5 className="mb-3">Special title treatment</h5>
+							<p className="mb-0">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Perferendis obcaecati tempora quam animi, quod voluptatum nihil.
+							</p>
+							<a
+								href="#www"
+								className="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded py-1 px-3 mt-3 leading-normal no-underline bg-sky-600 text-white hover:bg-sky-700 "
+							>
+								Go somewhere
+							</a>
+						</div>
+					</div>`}
+					/>
 				</div>
 			</div>
 			{/* ///////////////////////////////////// */}

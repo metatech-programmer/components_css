@@ -1,4 +1,5 @@
 import "./Carousel.css";
+import CopyCode from "../CopyCode/CopyCode";
 
 const CarouselComponents = () => {
 	const boxStyle = {
@@ -49,16 +50,31 @@ const CarouselComponents = () => {
 							/>
 						</section>
 					</div>
-					<p className="text-xs text-center text-balance ">
-						copy code{" "}
-						<a
-							href="#www"  
-							className="underline underline-offset-2 text-sky-400 hover:text-sky-700"
+					<CopyCode
+						number_code={Math.floor(Math.random() * 10000)}
+						code={`<div className="mx-8 border rounded-xl overflow-scroll">
+						<section
+							className="flex w-full overflow-x-scroll"
+							style={{ scrollSnapType: "x mandatory" }}
 						>
-							{" "}
-							Just Here{" "}
-						</a>
-					</p>
+							<img
+								className="w-full border border-black object-cover object-center snap-center"
+								src="https://picsum.photos/1500"
+								alt="img1"
+							/>
+							<img
+								className="w-full border border-black object-cover object-center snap-center"
+								src="https://picsum.photos/1000"
+								alt="img2"
+							/>
+							<img
+								className="w-[100%] border border-black object-cover object-center snap-center"
+								src="https://picsum.photos/1200"
+								alt="img3"
+							/>
+						</section>
+					</div>`}
+					/>
 				</div>
 			</div>
 			{/* ///////////////////////////////////// */}
