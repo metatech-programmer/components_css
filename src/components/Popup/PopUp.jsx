@@ -1,5 +1,4 @@
-const PopUp = (props) => {
-	const { code } = props;
+const PopUp = () => {
 
 	const handleClose = () => {
 		document.getElementById("popup").classList.add("hidden");
@@ -12,7 +11,6 @@ const PopUp = (props) => {
 			onClick={handleClose}
 		>
 			<div className="m-auto h-44 md:h-80 max-h-80 w-3/4  md:w-3/6  border bg-slate-800 rounded-xl shadow-lg shadow-slate-950 p-2 mt-3  md:mt-12  lg:mt-44 active:scale-105 transition-transform">
-				{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 				<div className=" text-slate-100 relative rounded-lg w-full flex justify-end  ">
 					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 					<button
@@ -27,7 +25,7 @@ const PopUp = (props) => {
 						Your code is the following:
 					</h3>
 					<p
-						className="bg-slate-900 m-2 rounded-lg p-3 h-10 md:h-40 overflow-scroll text-balance text-center"
+						className="bg-slate-900 m-2 rounded-lg p-3 h-10 md:h-40 overflow-scroll text-pretty font-mono italic"
 						id="code_popup"
 					/>
 					<span className="text-slate-100 animate-pulse transition-all m-auto">
