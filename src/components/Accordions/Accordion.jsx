@@ -1,71 +1,32 @@
+import AccordionComponent from "./AccordionComponent";
 const AccordionComponents = () => {
 	const boxStyle = {
-		padre:
+		father:
 			"grid grid-cols-1 border border-slate-600 p-7 rounded-xl gap-5 w-[60vw] h-[80%] bg-[#0404048e]  overflow-scroll",
-		hijo: "h-auto w-full  flex text-left flex-col m-auto p-2 gap-5 rounded-md border",
-		titulo:
-			"underline font-semibold underline-offset-4 text-amber-200 p-2 text-start",
-		subtitulo: "text-center my-5 md:mt-20 leading-3 font-bold",
+		subtitle: "text-center my-5 md:mt-20 leading-3 font-bold",
 	};
-	const textos = {
-		titulo_texto: {
-			uno: "Accordion One :",
-			dos: "Accordion Two :",
-			tres: "Accordion Three :",
-			cuatro: "Accordion Four :",
-			cinco: "Accordion Five :",
-			seis: "Accordion Six :",
+	const texts = {
+		title_text: {
+			one: "Accordion One :",
+			two: "Accordion Two :",
+			three: "Accordion Three :",
+			four: "Accordion Four :",
+			five: "Accordion Five :",
+			six: "Accordion Six :",
 		},
 	};
 
 	return (
 		<div className="flex flex-col gap-y-10">
-			<div className={boxStyle.padre}>
-				<h2 className={boxStyle.subtitulo}>Normal Accordions:</h2>
+			<div className={boxStyle.father}>
+				<h2 className={boxStyle.subtitle}>Normal Accordions:</h2>
 				{/* Accordion 1 */}
-				<div className={boxStyle.hijo}>
-					<h2 className={boxStyle.titulo}>{textos.titulo_texto.uno}</h2>
-					<div className="mx-4 border rounded-xl p-4">
-						<details
-							className="border bg-transparent p-3 overflow-x-auto"
-							name="first_accordion"
-							open
-						>
-							<summary className="font-semibold">Title One</summary>
-							<p className="m-4">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							</p>
-						</details>
-						<details
-							className="border bg-transparent p-3 overflow-x-auto"
-							name="first_accordion"
-						>
-							<summary className="font-semibold">Title Two</summary>
-							<p className="m-4">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							</p>
-						</details>
-						<details
-							className="border bg-transparent p-3 overflow-x-auto"
-							name="first_accordion"
-						>
-							<summary className="font-semibold">Title Three</summary>
-							<p className="m-4">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							</p>
-						</details>
-					</div>
-					<p className="text-xs text-center text-balance ">
-						copy code{" "}
-						<a
-							href="#www"
-							className="underline underline-offset-2 text-sky-400 hover:text-sky-700" 
-						>
-							{" "}
-							Just Here{" "}
-						</a>
-					</p>
-				</div>
+				<AccordionComponent
+					text_title={texts.title_text.one}
+					style_details="border bg-transparent p-3 overflow-x-auto"
+					style_summary="font-semibold"
+				/>
+				
 			</div>
 			{/* ///////////////////////////////////// */}
 		</div>
