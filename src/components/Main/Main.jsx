@@ -18,7 +18,7 @@ import { Route, Switch } from "wouter";
 const Main = () => {
 	return (
 		<main className=" pl-40 pr-4 pb-4 lg:pr-0 lg:pl-80 pt-12">
-			<Switch>
+		
 				<Route path="/" exact component={Home} />
 				<Route path="/Buttons" component={ButtonPage.page} />
 				<Route path="/Accordions" component={AccordionsPage.page} />
@@ -33,7 +33,7 @@ const Main = () => {
 				<Route path="/Typography" component={TypographyPage.page} />
 				<Route path="/Pages-resources" component={PagesResourcesPage.page} />
 				<Route path="/Progress-bar" component={ProgressBarsPage.page} />
-			</Switch>
+		
 		</main>
 	);
 };
