@@ -27,7 +27,7 @@ const Navigation = () => {
 	return (
 		<div className="bg-slate-950 h-screen lg:w-60 p-3 rounded fixed overflow-y-scroll md:w-24 border-r border-slate-600 shadow-md shadow-gray-600 z-40">
 			<div className="flex text-center lg:hidden pt-2 ">
-				<Link to="/">
+				<Link href="/">
 					<span
 						className="text-2xl font-semibold text-amber-200 pb-5 m-auto underline-offset-8  "
 						style={{ textShadow: "1px 1px 7px /link4CB9E7" }}
@@ -38,7 +38,7 @@ const Navigation = () => {
 				<hr className="mb-3  border-slate-800" />
 			</div>
 			<aside className="text-center h-full ">
-				<Link to="/">
+				<Link href="/">
 					<div className="mb-5 underline font-bold text-[/link4CB9E7] border-2 rounded-xl border-gray-400 p-3 lg:block hidden hover:animate-pulse">
 						<div
 							slot="image"
@@ -54,7 +54,7 @@ const Navigation = () => {
 				<hr className="mb-3  border-slate-800" />
 				<nav className="text-justify text-pretty h-full m-2">
 					<ul className="flex flex-col gap-2 text-white items-center pb-6  lg:items-stretch">
-						<Link to="/Accordions">
+						<Link href="/Accordions">
 							{" "}
 							<li
 								className={`${linkStyle.li} ${
@@ -73,7 +73,7 @@ const Navigation = () => {
 								<span className="hidden lg:block">Accordions</span>
 							</li>
 						</Link>
-						<Link to="/Badges">
+						<Link href="/Badges">
 							{" "}
 							<li
 								className={`${linkStyle.li} ${
@@ -91,7 +91,7 @@ const Navigation = () => {
 								<span className="hidden lg:block">Badges</span>
 							</li>
 						</Link>
-						<Link to="/Buttons">
+						<Link href="/Buttons">
 							{" "}
 							<li
 								className={`${linkStyle.li} ${
@@ -109,7 +109,7 @@ const Navigation = () => {
 								<span className="hidden lg:block">Buttons</span>
 							</li>
 						</Link>
-						<Link to="/Cards">
+						<Link href="/Cards">
 							{" "}
 							<li
 								className={`${linkStyle.li} ${
@@ -127,7 +127,7 @@ const Navigation = () => {
 								<span className="hidden lg:block">Cards</span>
 							</li>
 						</Link>
-						<Link to="/Carousels" rel="preload">
+						<Link href="/Carousels" rel="preload">
 							{" "}
 							<li
 								className={`${linkStyle.li} ${
@@ -145,7 +145,7 @@ const Navigation = () => {
 								<span className="hidden lg:block">Carousels</span>
 							</li>
 						</Link>
-						<Link to="/Typography" rel="preload">
+						<Link href="/Typography" rel="preload">
 							{" "}
 							<li
 								className={`${linkStyle.li} ${
@@ -163,7 +163,7 @@ const Navigation = () => {
 								<span className="hidden lg:block">Typographies</span>
 							</li>
 						</Link>
-						<Link to="/Footers">
+						<Link href="/Footers">
 							{" "}
 							<li
 								className={`${linkStyle.li} ${
@@ -181,7 +181,7 @@ const Navigation = () => {
 								<span className="hidden lg:block">Footers</span>
 							</li>
 						</Link>
-						<Link to="/Images">
+						<Link href="/Images">
 							{" "}
 							<li
 								className={`${linkStyle.li} ${
@@ -199,7 +199,7 @@ const Navigation = () => {
 								<span className="hidden lg:block">Images</span>
 							</li>
 						</Link>
-						<Link to="/Lists">
+						<Link href="/Lists">
 							{" "}
 							<li
 								className={`${linkStyle.li} ${
@@ -217,7 +217,7 @@ const Navigation = () => {
 								<span className="hidden lg:block">Lists</span>
 							</li>
 						</Link>
-						<Link to="/Modals">
+						<Link href="/Modals">
 							{" "}
 							<li
 								className={`${linkStyle.li} ${
@@ -236,7 +236,7 @@ const Navigation = () => {
 							</li>
 						</Link>
 
-						<Link to="/Pages-resources">
+						<Link href="/Pages-resources">
 							{" "}
 							<li
 								className={`${linkStyle.li} ${
@@ -254,7 +254,7 @@ const Navigation = () => {
 								<span className="hidden lg:block">Pages Resources</span>
 							</li>
 						</Link>
-						<Link to="/Progress-bar">
+						<Link href="/Progress-bar">
 							{" "}
 							<li
 								className={`${linkStyle.li} ${
@@ -272,7 +272,7 @@ const Navigation = () => {
 								<span className="hidden lg:block">Progress Bar</span>
 							</li>
 						</Link>
-						<Link to="/Spinners">
+						<Link href="/Spinners">
 							{" "}
 							<li
 								className={`${linkStyle.li} ${

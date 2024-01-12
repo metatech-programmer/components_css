@@ -13,7 +13,7 @@ import PagesResourcesPage from "../../Pages/PagesResources/index";
 import ProgressBarsPage from "../../Pages/ProgressBar/index";
 
 import Home from "../../Pages/Home/Home";
-import { Route, Switch } from "wouter";
+import { Route } from "wouter";
 
 const Main = () => {
 	return (
