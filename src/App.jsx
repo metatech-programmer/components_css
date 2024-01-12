@@ -7,8 +7,7 @@ import { Router, Switch } from "wouter";
 
 function App() {
 	window.onload = () => {
-		const rutaActual = window.location.pathname;
-		window.location.href = rutaActual;
+		window.location.href = "/"; 
 	};
 	return (
 		<Router>
