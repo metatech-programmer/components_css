@@ -7,10 +7,6 @@ import { Router, Switch } from "wouter";
 import { useEffect } from "react";
 
 function App() {
-	useEffect(() => {
-		window.location.href = "/";
-	}, []);
-
 	return (
 		<Router>
 			<div className="w-screen h-screen font-sans dark:text-slate-200 overflow-scroll bg-gradient-to-t from-gray-800 to-50% to-gray-95 ">
