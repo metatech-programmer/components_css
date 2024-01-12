@@ -6,6 +6,10 @@ import PopUp from "./components/Popup/PopUp";
 import { Router, Switch } from "wouter";
 
 function App() {
+	window.onload = () => {
+		const rutaActual = window.location.pathname;
+		window.location.href = rutaActual;
+	};
 	return (
 		<Router>
 			<div className="w-screen h-screen font-sans dark:text-slate-200 overflow-scroll bg-gradient-to-t from-gray-800 to-50% to-gray-95 ">
