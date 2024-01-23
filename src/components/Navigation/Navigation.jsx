@@ -235,7 +235,7 @@ const Navigation = () => {
 								<span className="hidden lg:block">Modals</span>
 							</li>
 						</Link>
-
+{/* 
 						<Link href="/Pages-resources">
 							{" "}
 							<li
@@ -290,7 +290,7 @@ const Navigation = () => {
 								<span className="hidden lg:block">Spinners</span>
 							</li>
 							<hr className="mt-4 border-slate-800" />
-						</Link>
+						</Link> */}
 						<a
 							href="https://santiagoaguilar-devfront.netlify.app/"
 							target="_blank"
