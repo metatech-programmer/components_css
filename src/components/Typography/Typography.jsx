@@ -4,6 +4,7 @@ import fontFabric from "../../assets/fonts/font_fabric.webp";
 import fontTesk from "../../assets/fonts/fontesk.webp";
 import fontGoogle from "../../assets/fonts/google_fonts.webp";
 import fontQuirre from "../../assets/fonts/fonts_quirre.webp";
+import fontSource from "../../assets/fonts/fonts_source.webp";
 
 const TypographyComponents = () => {
 	const boxStyle = {
@@ -86,6 +87,16 @@ const TypographyComponents = () => {
 						"https://fontesk.com/font/sans-serif/?license=free-for-commercial-use,free-for-personal-use"
 					}
 					link_img={fontTesk}
+				/>
+				{/* Typography 6 */}
+				<TypographyComponent
+					hijo={boxStyle.hijo}
+					styleTitulo={boxStyle.titulo}
+					titulo={textos.titulo_texto.seis}
+					link_font={
+						"https://fontsource.org/"
+					}
+					link_img={fontSource}
 				/>
 			</div>
 			{/* ///////////////////////////////////// */}
