@@ -292,7 +292,7 @@ const Navigation = () => {
 							<hr className="mt-4 border-slate-800" />
 						</Link> */}
 						<a
-							href="https://santiagoaguilar-devfront.netlify.app/"
+							href="https://santiagotorres-web-developer.netlify.app/"
 							target="_blank"
 							className="mt-2 text-slate-700 text-center hover:text-slate-400"
 							rel="noreferrer"
